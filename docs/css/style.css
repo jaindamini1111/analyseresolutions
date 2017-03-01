@@ -1,0 +1,135 @@
+body { 
+    background-color: #87CEEB;
+	
+}
+
+.centre {
+	width:85%;
+	background-color:white;
+	margin-left:5%;
+	margin-right:5%;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	font-family:Verdana, Geneva, sans-serif;
+	float:left;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.figureTextContainer  {
+	width:100%;
+	float:left;
+}
+
+.figLeft {
+	/* background-color:blue; */
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+.figRight {
+	/* background-color:yellow; */
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+.imageContainer300  {
+	width:100%;
+	max-height:300px;
+	height:50%;
+	float:left;
+	
+}
+
+.imageContainer600  {
+	width:100%;
+	max-height:600px;
+	height:50%;
+	float:left;
+	
+}
+
+.imageLeft {
+	/* background-color:green; */
+	padding-top:0%;
+	padding-bottom:0%;
+	width:50%;
+	float:left;
+	height:100%;
+	display:inline-block;
+	
+}
+.imageRight {
+	/* background-color:red; */
+	padding-top:0%;
+	padding-bottom:0%;
+	width:50%;
+	float:left;
+	height:100%;
+	display:inline-block;
+	
+}
+.h1 {
+	font-size:20px;
+	font-weight:bold;	
+}
+.h2 {
+	font-size:18px;
+	font-weight:bold;
+	margin-left:1%;
+	padding-top:2%;
+}
+.figureText {
+	font-size:12px;
+	text-align:center;
+	margin-top:2px;
+	margin-bottom:25px;
+}
+p {
+	display:block;
+	padding-left:2%;
+	width:80%
+}
+.ocrTable {
+	margin-left:auto; 
+    margin-right:auto;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+	font-weight: normal;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+thead {
+	background-color: #87CEEB;
+	color:white;
+	padding: 10px;
+    text-align: left;
+	
+}
+
+a {
+	color:#87CEEB;
+	text-decoration:none;
+}
+
+.para {
+	margin-left:2%;
+}
+
+.abst {
+	margin-left:5%;
+	font-size:11pt;
+	width:70%;
+}
+
+.indent {
+	margin-left:2%;
+	}
+

@@ -1,0 +1,60 @@
+Loading the gold truth. Found 28 items.
+command tesseract.exe headTestdata/img1.tif results/0/0_05_150/img1_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img10.tif results/0/0_05_150/img10_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img11.tif results/0/0_05_150/img11_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img12.tif results/0/0_05_150/img12_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img13.tif results/0/0_05_150/img13_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img14.tif results/0/0_05_150/img14_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img15.tif results/0/0_05_150/img15_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img16.tif results/0/0_05_150/img16_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img17.tif results/0/0_05_150/img17_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img18.tif results/0/0_05_150/img18_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img19.tif results/0/0_05_150/img19_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img2.tif results/0/0_05_150/img2_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img20.tif results/0/0_05_150/img20_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img21.tif results/0/0_05_150/img21_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img22.tif results/0/0_05_150/img22_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img23.tif results/0/0_05_150/img23_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img24.tif results/0/0_05_150/img24_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img25.tif results/0/0_05_150/img25_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img26.tif results/0/0_05_150/img26_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img27.tif results/0/0_05_150/img27_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img28.tif results/0/0_05_150/img28_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img3.tif results/0/0_05_150/img3_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img4.tif results/0/0_05_150/img4_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img5.tif results/0/0_05_150/img5_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img6.tif results/0/0_05_150/img6_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img7.tif results/0/0_05_150/img7_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img8.tif results/0/0_05_150/img8_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command tesseract.exe headTestdata/img9.tif results/0/0_05_150/img9_output -l custom_head_v2_1740_2 -psm 6 results/0/0_05_150/config.txt
+b''
+command java -cp ocrevaluation.jar eu.digitisation.Main -gt results/0/groundtruth.txt -ocr results/0/0_05_150/aggregate.txt -o results/0/0_05_150/report.html
+Moving on.
+0_05_150: CER 1.42% WER 4.50%

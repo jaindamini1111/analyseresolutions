@@ -1,0 +1,82 @@
+Loading the gold truth. Found 26 items.
+command tesseract.exe datelineTestdata/img1.tif results/2/10_10_200/img1_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img10.tif results/2/10_10_200/img10_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img11.tif results/2/10_10_200/img11_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img12.tif results/2/10_10_200/img12_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img13.tif results/2/10_10_200/img13_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img14.tif results/2/10_10_200/img14_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img15.tif results/2/10_10_200/img15_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img16.tif results/2/10_10_200/img16_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img17.tif results/2/10_10_200/img17_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img18.tif results/2/10_10_200/img18_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img19.tif results/2/10_10_200/img19_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img2.tif results/2/10_10_200/img2_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img20.tif results/2/10_10_200/img20_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img21.tif results/2/10_10_200/img21_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img22.tif results/2/10_10_200/img22_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img23.tif results/2/10_10_200/img23_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img24.tif results/2/10_10_200/img24_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img25.tif results/2/10_10_200/img25_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img26.tif results/2/10_10_200/img26_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img3.tif results/2/10_10_200/img3_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img4.tif results/2/10_10_200/img4_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img5.tif results/2/10_10_200/img5_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img6.tif results/2/10_10_200/img6_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img7.tif results/2/10_10_200/img7_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img8.tif results/2/10_10_200/img8_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+command tesseract.exe datelineTestdata/img9.tif results/2/10_10_200/img9_output -l custom_dateline_v1 -psm 4 results/2/10_10_200/config.txt
+b''
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+processDatelineText ->
+command java -cp ocrevaluation.jar eu.digitisation.Main -gt results/2/groundtruth.txt -ocr results/2/10_10_200/aggregate.txt -o results/2/10_10_200/report.html
+Moving on.
+10_10_200: CER 1.31% WER 1.54%

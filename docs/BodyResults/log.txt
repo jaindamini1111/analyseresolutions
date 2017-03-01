@@ -1,0 +1,96 @@
+Loading the gold truth. Found 33 items.
+command tesseract.exe bodyTestdata/img1.tif results/0/0_25_200/img1_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img10.tif results/0/0_25_200/img10_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img11.tif results/0/0_25_200/img11_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img12.tif results/0/0_25_200/img12_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img13.tif results/0/0_25_200/img13_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img15.tif results/0/0_25_200/img15_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img16.tif results/0/0_25_200/img16_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img17.tif results/0/0_25_200/img17_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img18.tif results/0/0_25_200/img18_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img19.tif results/0/0_25_200/img19_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img2.tif results/0/0_25_200/img2_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img20.tif results/0/0_25_200/img20_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img21.tif results/0/0_25_200/img21_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img22.tif results/0/0_25_200/img22_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img23.tif results/0/0_25_200/img23_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img24.tif results/0/0_25_200/img24_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img25.tif results/0/0_25_200/img25_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img26.tif results/0/0_25_200/img26_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img27.tif results/0/0_25_200/img27_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img28.tif results/0/0_25_200/img28_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img29.tif results/0/0_25_200/img29_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img3.tif results/0/0_25_200/img3_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img30.tif results/0/0_25_200/img30_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img31.tif results/0/0_25_200/img31_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img32.tif results/0/0_25_200/img32_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img33.tif results/0/0_25_200/img33_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img34.tif results/0/0_25_200/img34_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img4.tif results/0/0_25_200/img4_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img5.tif results/0/0_25_200/img5_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img6.tif results/0/0_25_200/img6_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img7.tif results/0/0_25_200/img7_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img8.tif results/0/0_25_200/img8_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+command tesseract.exe bodyTestdata/img9.tif results/0/0_25_200/img9_output -l custom_body_v2_1740_2+emop_body_v2_1740_2 -psm 6 results/0/0_25_200/config.txt
+b''
+resteert Zyn de Depesches daar uyt resul-
+resteert zyn de Depesches daar uyt resul-
+WAAR op gedelibereert Zynde, is goed-
+WAAR op gedelibereert zynde, is goed-
+is voor-gekoomen, het Zelve oock alzoo
+is voor-gekoomen, het zelve oock alzoo
+Generaal Doys zal Werden gerescribeert,
+Generaal Doys zal werden gerescribeert,
+del sullen-werden genegotieert, Om nader-
+del sullen-werden genegotieert, om nader-
+Dat Om de les andere of laaste Schee-
+Dat om de les andere of laaste Schee-
+men, Zyn gelesen en gereiumeert,
+men, zyn gelesen en gereiumeert,
+op gedelibereert Zynde, is goedgevonden
+op gedelibereert zynde, is goedgevonden
+Staate Zal werden verzoght, zoo als ver-
+Staate zal werden verzoght, zoo als ver-
+WAAR op gedelibereert Zynde, is goed-
+WAAR op gedelibereert zynde, is goed-
+op gedelibereert Zynde, hebben de Heeren
+op gedelibereert zynde, hebben de Heeren
+op gedelibereert Zynde, hebben de Heeren
+op gedelibereert zynde, hebben de Heeren
+WAAR Op gedelibereert zynde, is goed-
+WAAR op gedelibereert zynde, is goed-
+command java -cp ocrevaluation.jar eu.digitisation.Main -gt results/0/groundtruth.txt -ocr results/0/0_25_200/aggregate.txt -o results/0/0_25_200/report.html
+Moving on.
+0_25_200: CER 1.75% WER 6.39%

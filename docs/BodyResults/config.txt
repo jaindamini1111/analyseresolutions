@@ -1,0 +1,5 @@
+enable_new_segsearch 1
+classify_class_pruner_threshold 200
+language_model_penalty_non_dict_word 0
+language_model_penalty_non_freq_dict_word .25
+segsearch_max_char_wh_ratio 2.4
