@@ -19,10 +19,10 @@
 	<br>
 	<p></p>
 	<p class="h2">Introduction</p>
-	<p class="para">This page provides a visual walk-through of the resulting outputs generated during the case study. The case study was involved in exploring methods alternative to editing for the digital opening of a vast archival series. More specifically, it focussed on the 1740 document of the <i>Resolutions of the States General</i> and explored the use and usefulness of visual information from the material text represented in the digital facsimile for the document's digital opening.</p>
+	<p class="para">This page provides a partial visual walk-through of the tool's processing and of the resulting outputs generated during the case study. The case study was involved in exploring methods alternative to editing for the digital opening of a vast archival series. More specifically, it focussed on the 1740 document of the <i>Resolutions of the States General</i> and explored the use and usefulness of visual information from the material text represented in the digital facsimile for the document's digital opening.</p>
 	<br>
 	<p class="h2">Image Analysis</p>
-	<p class="para">Image analysis was carried out to recognise select details from the intricate structuring systems by which the document had been laid out. When recognised, these details then allow the reconstruction of the document's physical flow, and based on that, the inferring of the flow of the constituent parts in the document's logical layout.</p>
+	<p class="para">Image analysis was carried out to recognise select details from the intricate structuring systems by which the document had been laid out. When recognised, these details then allow the reconstruction of the document's physical flow, and based on that, the inferring of the document's logical flow and its constituent parts.</p>
 	<p class="para">The images below visualise some of the aspects of how the tailored tool 'reads' the document's digital facsimile. Figures 1 and 2 show the first two openings of the body of resolutions as they had been captured by the National Archives of the Netherlands, and figures 3 and 4 visualise part of the processing on top of the original images. These images should give an idea of how the processing proceeds on a high-level.</p>
 	<div class="imageContainer300">
 		<div class="imageLeft">
@@ -60,7 +60,7 @@
 			<p class="figureText">Fig 4. Visualisation of the processing of the following opening.</p>
 		</div>
 	</div>
-	<p class="para">The processing continues across the whole document to much the same effect as was seen above. Below, the figure 5 shows the 1740 <i>Resolutions of the States General</i>'s digital facsimile laid out in full; and figure 6 visualises how the processing has eaten its way across the document. Please note that the document starts with an index, which is consciously by-passed by the processing because it was seen not to meet contemporary standards.</p>
+	<p class="para">The processing continues across the whole document to much the same effect as seen above. Below, the figure 5 shows the 1740 <i>Resolutions of the States General</i>'s digital facsimile laid out in full; and figure 6 visualises how the processing has eaten its way across the document. Please note that the document starts with an index, which is consciously by-passed because it was seen not to meet contemporary requirements.</p>
 	<div class="imageContainer300">
 		<div class="imageLeft">
 			<a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Femckclac-my.sharepoint.com%2Fpersonal%2Fk1347088_kcl_ac_uk%2F_layouts%2F15%2Fguestaccess.aspx%3Fdocid%3D002b027d1ed5c4ce58b8198804d7ff6fa%26authkey%3DAcQtmdppAqG-5uOg01itIvA%26e%3D4%253A58c7a07a7b2a4fb18d827ec36996a9e1&data=01%7C01%7Ctuomo.toljamo%40kcl.ac.uk%7C811aa712f6954ea9f18b08d460a4c8c1%7C8370cf1416f34c16b83c724071654356%7C0&sdata=84OkED7ExBM5a0XdbYat%2Btf9KG45dWm2elBZcI0QKrg%3D&reserved=0"><img src="img/resolutions_1740_thumb.png" alt="" style="display:block; margin:auto; float:relative; max-width:90%; max-height:100%;" align="center"></a>
@@ -79,12 +79,12 @@
 			<p class="figureText">Fig 6. Digital facsimile overlaid with a visualisation of the processing across the document. Note: Clicking on the image opens a larger 5546x4284 110MB version; or, you can click here for the <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Femckclac-my.sharepoint.com%2Fpersonal%2Fk1347088_kcl_ac_uk%2F_layouts%2F15%2Fguestaccess.aspx%3Fdocid%3D05ed74ba9d3ce43cfb5ff1edf167886db%26authkey%3DAViU_UESNubvDH5l44lsYmk%26e%3D4%253Aed60201b23934fa2a02fb748d1a42b87&data=01%7C01%7Ctuomo.toljamo%40kcl.ac.uk%7C0545482113884b843fd908d460a4e3a5%7C8370cf1416f34c16b83c724071654356%7C0&sdata=lPAqupwNoHqfNnnRAafk7RT%2FnYP3JJBKWZHWG%2FD4LBQ%3D&reserved=0">bigly 8296x6384 241MB version</a>.</p>
 		</div>
 	</div>
-	<p class="para">In case you are interested in more details on the image analysis part of the processing, please have a look at the following GIF: <a href="img/resolutions_gif.gif">Visual walk-through of processing</a>. Overall, the developed system is closely related to 'document conversion systems' studied and developed in the field of document image analysis and understanding.</p>
+	<p class="para">In the case that you are interested in more details on the image analysis part of the processing, please have a look at the following GIF: <a href="img/resolutions_gif.gif">Visual walk-through of processing</a>. Overall, the developed system is closely related to 'document conversion systems' studied and developed in the field of document image analysis and understanding.</p>
 	<p class="para">Image analysis metrics: <span style="color: red;">To be added.</span></p>
 	
 	<p class="h2">Generated XML Source</p>
-	<p class="para">Transcription is among the first steps in editorial work. Here, the aim was to generate a source text that was as unriddled as possible of OCR errors, as well as one that would include useful high-level structural information derived from the document's images. Towards these aims, the work applied OCR in a tailored and critical manner: (1) the OCR process is branched in three ways according to the logical roles of the content in the image splices being passed for text recognition as segmented by the image analysis; (2) the language resources used by the three branches are highly tailored for the purpose; and (3) the <a href="tesseract_params.html">configuration parameters</a> of <i>Tesseract</i> are adjusted to better suite the material at hand.</p>
-	<p class="para">In the end, the generated source text even with its many imperfections can still be seen as: a useful additional layer of access to the digital facsimile and to the document's textual content; and as a starting point for further manual or automated enrichment, such as those that have been explored at the Huygens ING's other pilots (see Sluijter et al. 2016).</p>
+	<p class="para">Transcription is among the first steps in editorial work. Here, the aim was to generate a source text that was as unriddled as possible of OCR errors, as well as one that would include useful high-level structural information derived from the document's images. Towards these aims, the work applied OCR in a tailored and critical manner: (1) the OCR engine was trained to read the document's fonts (note: the tool also makes use of a training file published by the eMOP project); (2) the OCR process was branched in three ways according to the logical roles of the content in the input images as segmented and recognised by preceding stage of image analysis; (3) the language resources used by the three branches were each tailored for their purposes; and (4) the <a href="tesseract_params.html">configuration parameters</a> of <i>Tesseract</i> were adjusted to better suit the material at hand.</p>
+	<p class="para">In the end, the generated source text even with its many imperfections can still be seen both as a useful additional layer of access to the digital facsimile and to the document's textual content; and, as a starting point for further manual or automated enrichment, such as those that have been explored by the Huygens ING's other pilots (see Sluijter et al. 2016).</p>
 	<div class="imageContainer300">
 		<div class="imageLeft">
 			<a href="img/Fig7.png"><img src="img/Fig7.png" alt="" style="display:block; margin:auto; float:relative; max-width:90%; max-height:100%;" align="center"></a>
@@ -97,10 +97,10 @@
 	</div>
 	<div class="figureTextContainer">
 		<div class="figLeft">
-			<p class="figureText">Fig 7. A screenshot of the generated source text open in Oxygen.</p>
+			<p class="figureText">Fig 7. A screenshot of the generated source text open in the Oxygen XML editor.</p>
 		</div>
 		<div class="figRight">
-			<p class="figureText">Fig 8. A screenshot of the source's coloured reading text HTML rendering.</p>
+			<p class="figureText">Fig 8. A screenshot of an HTML rendering of the source's coloured reading text.</p>
 		</div>
 	</div>
 	<p><b>Downloads:</b></p>
@@ -184,18 +184,18 @@
 	</div>
 	<p class="para">The small print:</p>
 	<ul style="margin-left:3%; width:80%;">
-		<li><b>OCR Engine.</b> The OCR engine in use was Tesseract v3.05. The <a href="tesseract_params.html">configuration parameters</a> and language resources used were highly tailored.</li>
+		<li><b>OCR Engine.</b> The OCR engine in use was Tesseract v3.05. The font training, language resources and <a href="tesseract_params.html">configuration parameters</a> used were highly tailored.</li>
 		<li><b>Evaluation.</b> The results were evaluated and the reports generated with the <i>ocrevalUAtion</i> tool.</li>
 		<li><b>Type.</b> The OCR resource use is branched in three-ways according to the logical role of the input.</li>
 		<li><b>CER.</b> Character error rate.</li>
 		<li><b>WER.</b> Word error rate.</li>
 		<li><b>On-the-fly regularisation.</b> The regularisations include correcting for some of the repeating textual structures; for example, 'PRAESENTIBUS' and names of days and months in beginning sections of sessions.</li>
-		<li><b>Post-processing.</b> The post processing was carried out with a computer-assisted tailored tool, which tries to (1) address systematic errors (e.g. misrecognition of the letter j in place of a comma); and (2) leverage the internal consistency of the document (e.g. if the type 'Brantzenborgh' is a high-frequency item, the tool tries to identify and collapse non-dictionary items, such as 'Btantzenhorgh' into it). (Note: Only little work has gone into this yet.)</li>
-		<li><b>Ground truth.</b> The manually transcribed ground truth sets are quite small: for example, starting sections have 386 lines (386/~5591 = ~6.90%) and resumptions and resolutions have 624 lines (624/~83356 = ~0.75%). The sets were used to guide the iterative improvement.</li>
-		<li><b>Reality.</b> While the metrics should be quite representative, in reality the OCR output's results are both <i>variable</i> and <i>slightly worse in total than the numbers suggest</i>. The document includes occasional segments where the results are extremely poor (e.g. because of <a href="bleedthrough_showthrough.html">bleedthrough/showthrough</a> and its effects in adaptive binarisation) and segments in other languages where the tailored language resources can only do damage. The document also includes few tables of figures for which no specialised processing was devised.</li>
+		<li><b>Post-processing.</b> The post processing was carried out with a computer-assisted tailored tool, which tries to (1) address systematic errors (e.g. misrecognition of the letter j in place of a comma); and (2) leverage the internal consistency of the document (e.g. if the type 'Brantzenborgh' is a high-frequency item, the tool tries to identify and collapse close by non-dictionary items such as 'Btantzenhorgh' into it). (Note: Only little work has gone into this yet.)</li>
+		<li><b>Ground truth.</b> The manually transcribed ground truth sets are quite small: for example, starting sections have 386 lines (386/~5591 = ~6.90%) and resumptions and resolutions have 624 lines (624/~83356 = ~0.75%). The sets were used to guide the iterative improvement of the performance.</li>
+		<li><b>Reality.</b> While the metrics should be quite representative, in reality the OCR output's results are both <i>variable</i> and <i>slightly worse in total than the numbers suggest</i>. The document includes occasional segments where the results are extremely poor (e.g. because of <a href="bleedthrough_showthrough.html">bleedthrough/showthrough</a> and its effects in adaptive binarisation) and segments in other languages where the current language resources can only do damage. The document also includes few tables of figures for which no specialised processing was devised.</li>
 	</ul>
 	<hr>
-	<p style="text-align:center; font-size:10px;">Last update: 1st March 2017. Tuomo Toljamo (King's College London).</p>
+	<p style="text-align:center; font-size:10px;">Last update: 31st March 2017. Tuomo Toljamo (King's College London).</p>
 </div>
 </body>
 </html>
