@@ -1,5 +1,5 @@
 body { 
-    background-color: #87CEEB;
+    background-color: #74AFAD;
 	
 }
 
@@ -12,7 +12,7 @@ body {
 	padding-right:2.5%;
 	padding-top:2.5%;
 	padding-bottom:2.5%;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family: Open Sans, Verdana, Geneva, sans-serif;
 	float:left;
 	margin-top:5px;
 	margin-bottom:10px;
@@ -104,10 +104,10 @@ th, td {
 	font-weight: normal;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2}
+tr:nth-child(even) {background-color: #ECECEA}
 
 thead {
-	background-color: #87CEEB;
+	background-color: #558C89;
 	color:white;
 	padding: 10px;
     text-align: left;
@@ -115,7 +115,7 @@ thead {
 }
 
 a {
-	color:#87CEEB;
+	color:#D9853B;
 	text-decoration:none;
 }
 
