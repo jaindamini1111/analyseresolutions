@@ -1,0 +1,10 @@
+
+The three facsimile images in this folder have been acquired by the National Archives of the Netherlands (http://www.gahetna.nl/), license CC-BY ( http://www.gahetna.nl/en/q-and-a/how-this-website-works/download-image ).
+
+The images are captured from the Resolutions of the States General for the year 1740. 
+They are named as: NL-HaNA_1.01.02_3795_0058.jpg, NL-HaNA_1.01.02_3795_0059.jpg and NL-HaNA_1.01.02_3795_0060.jpg.
+
+The images are offered as examples in this release so that the code can be executed, and its processing observed in action, without extensive prior modifications.
+
+---
+See: Staten-Generaal » Inventaris nr. 3795, Scans - Zoeken: 1.01.02 inventarisnummer 3795 at  http://www.gahetna.nl/collectie/archief/inventaris/gahetnascans/zoekterm/1.01.02/eadid/1.01.02/wollig/uit/aantal/20/scans-pagina/22/unitid/3795/volledige-tekst/aan/gebruikersinbreng/aan/inventarisnr/3795/pagina/1

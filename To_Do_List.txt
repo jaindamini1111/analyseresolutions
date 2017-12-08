@@ -1,0 +1,31 @@
+To do -list:
+============
+
+Add features:
+	- @Add image-coordinates of extracted text regions to the generated XML (in relation to the original facsimile).
+	- @Add image-coordinates also to the extracted image splices.
+	- @Handle the EXIF data of the digital facsimile images.
+	- @Restructure the processing in such a way that the extracted image splices can be re-OCR'd without redoing image analysis.
+	- @Move flags/parameters mixed in the code to the Levers.py.
+	- @Create a flag to toggle the post-processing of text (called from DocumentImageUnderstanding.py; and from ipynb itself for datelines?).
+	
+Change:
+	- @Change tag naming towards better TEI compliance.
+	- @Add teiHeader: Include revision history on e.g. the dates when the generation of XML starts/ends, the exact spells used, 
+					  the parameters and resources used, etc.
+	- @Profile and optimise the code. (At the moment, some processing stages are senselessly poor.)
+	- @Remove redundant processing: e.g. in analysing connected components.
+	- @Use numpy for tossing and turning image data arrays (for improved performance).
+	- @Develop proper run-time post-processing operations; at the moment, it's a quick sketch to mitigate some common errors from recurring text structures.
+	- @Comment and explain the code better (e.g. DocumentImageUnderstanding.py).
+
+Known issues:
+	- The execution is dead slow (due to redundancies/lack of optimisation).
+	- DIA fails at times:
+		- The recognition of a large initial capital fails at times, if the characters on lines on top of each other are joined just right 
+	      so that they visually resemble an initial (e.g. 0073_page2_col1; 0283_page1_col1).
+		- There are structural hierarchies below the top-level, which are not recognised at the moment -- but perhaps could be (e.g. attachments within resolutions).
+		- The head section is at times not correctly recognised (e.g. Mercurii den 7 September, because there's no space before it.)
+		- Tesseract mysteriously fails to OCR a dateline splice (0239).
+	- Etc.
+	

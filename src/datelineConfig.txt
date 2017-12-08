@@ -1,0 +1,6 @@
+enable_new_segsearch 1
+classify_class_pruner_threshold 200
+language_model_penalty_non_dict_word .10
+language_model_penalty_non_freq_dict_word .10
+language_model_ngram_on 1
+stopper_nondict_certainty_base -0.5
